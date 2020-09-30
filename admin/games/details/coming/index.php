@@ -1,6 +1,6 @@
 <?php
 $baseurl='../../..';
-$gamemenu='active';
+$gamemenu='ongoing';
 ?>
 <?php if ($_GET['lang'] == en ) { ?>
 	<?php
@@ -21,7 +21,7 @@ $gamemenu='active';
 		<?php include ''.$baseurl.'/include/header.php'; ?>
 	</head>
 
-	<body class="skin-blue">
+	<body class="skin-red">
 	<!-- header logo: style can be found in header.less -->
 	<header class="header">
 		<?php include ''.$baseurl.'/include/header_menu.php'; ?>
@@ -46,7 +46,7 @@ $gamemenu='active';
 			<section class="content-header">
 				<h1><?php echo $lang[43] ?><small><?php echo $lang[44] ?></small></h1>
 				<ol class="breadcrumb">
-					<li><a href="<?php echo $baseurl ?>/"><i class="fa fa-dashboard"></i><?php echo $lang[27] ?></a></li>
+					<li><a href="<?php echo $baseurl ?>/"><i class="fa fa-DASHBOARD"></i><?php echo $lang[27] ?></a></li>
 					<li><a href="<?php echo $baseurl ?>/games"><?php echo $lang[18] ?></a></li>
 					<li class="active"><?php echo $lang[43] ?></li>
 				</ol>
